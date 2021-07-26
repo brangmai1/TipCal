@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "DZk-vz-bWy"; */
+"DZk-vz-bWy.text" = "Total";
+
+/* Class = "UILabel"; text = "Tip Calculator"; ObjectID = "ES8-ha-hlB"; */
+"ES8-ha-hlB.text" = "Tip Calculator";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "P6h-bH-zXx"; */
+"P6h-bH-zXx.text" = "$0.00";
+
+/* Class = "UILabel"; text = "$0.00"; ObjectID = "Ts0-0g-wCs"; */
+"Ts0-0g-wCs.text" = "$0.00";
+
+/* Class = "UISegmentedControl"; a3i-WQ-VPG.segmentTitles[0] = "15%"; ObjectID = "a3i-WQ-VPG"; */
+"a3i-WQ-VPG.segmentTitles[0]" = "15%";
+
+/* Class = "UISegmentedControl"; a3i-WQ-VPG.segmentTitles[1] = "18%"; ObjectID = "a3i-WQ-VPG"; */
+"a3i-WQ-VPG.segmentTitles[1]" = "18%";
+
+/* Class = "UISegmentedControl"; a3i-WQ-VPG.segmentTitles[2] = "20%"; ObjectID = "a3i-WQ-VPG"; */
+"a3i-WQ-VPG.segmentTitles[2]" = "20%";
+
+/* Class = "UILabel"; text = "Tip Percentage"; ObjectID = "bc3-KG-u3O"; */
+"bc3-KG-u3O.text" = "Tip Percentage";
+
+/* Class = "UILabel"; text = "Tip"; ObjectID = "hGU-Fy-KbU"; */
+"hGU-Fy-KbU.text" = "Tip";
+
+/* Class = "UILabel"; text = "Bill Amount"; ObjectID = "iih-hr-JOS"; */
+"iih-hr-JOS.text" = "Bill Amount";
+
+/* Class = "UITextField"; placeholder = "$0.00"; ObjectID = "w9h-GW-BCC"; */
+"w9h-GW-BCC.placeholder" = "$0.00";
