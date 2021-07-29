@@ -34,72 +34,65 @@ class ViewController: UIViewController {
         billAmountTextField.text = ""
         tipAmountLabel.text = String(format: "$%.2f")
         totalLabel.text = String(format: "$%.2f")
-    }    
+    }
     
     @IBAction func actionDot(_ sender: UIButton) {
         let numberDot: String = "."
-        billAmountTextField.text = previousNumber + numberDot
-        previousNumber = previousNumber + numberDot
+        setBillAmount(numberDot)
     }
     
     @IBAction func actionZero(_ sender: UIButton) {
         let numberZero: String = "0"
-        billAmountTextField.text = previousNumber + numberZero
-        previousNumber = previousNumber + numberZero
+        setBillAmount(numberZero)
     }
     
     @IBAction func actionOne(_ sender: UIButton) {
         let numberOne: String = "1"
-        billAmountTextField.text = previousNumber + numberOne
-        previousNumber = previousNumber + numberOne
+        setBillAmount(numberOne)
     }
     
     @IBAction func actionTwo(_ sender: UIButton) {
         let numberTwo: String = "2"
-        billAmountTextField.text = previousNumber + numberTwo
-        previousNumber = previousNumber + numberTwo
+        setBillAmount(numberTwo)
     }
     
     @IBAction func actionThree(_ sender: UIButton) {
         let numberThree: String = "3"
-        billAmountTextField.text = previousNumber + numberThree
-        previousNumber = previousNumber + numberThree
+        setBillAmount(numberThree)
     }
     
     @IBAction func actionFour(_ sender: UIButton) {
         let numberFour: String = "4"
-        billAmountTextField.text = previousNumber + numberFour
-        previousNumber = previousNumber + numberFour
+        setBillAmount(numberFour)
     }
     
     @IBAction func actionFive(_ sender: UIButton) {
         let numberFive: String = "5"
-        billAmountTextField.text = previousNumber + numberFive
-        previousNumber = previousNumber + numberFive
+        setBillAmount(numberFive)
     }
     
     @IBAction func actionSix(_ sender: UIButton) {
         let numberSix: String = "6"
-        billAmountTextField.text = previousNumber + numberSix
-        previousNumber = previousNumber + numberSix
+        setBillAmount(numberSix)
     }
     
     @IBAction func actionSeven(_ sender: UIButton) {
         let numberSeven: String = "7"
-        billAmountTextField.text = previousNumber + numberSeven
-        previousNumber = previousNumber + numberSeven
+        setBillAmount(numberSeven)
     }
     
     @IBAction func actionEight(_ sender: UIButton) {
         let numberEight: String = "8"
-        billAmountTextField.text = previousNumber + numberEight
-        previousNumber = previousNumber + numberEight
+        setBillAmount(numberEight)
     }
     
     @IBAction func actionNine(_ sender: UIButton) {
         let numberNine: String = "9"
-        billAmountTextField.text = previousNumber + numberNine
-        previousNumber = previousNumber + numberNine
+        setBillAmount(numberNine)
+    }
+    func setBillAmount(_ digit: String) {
+        billAmountTextField.text = previousNumber + digit
+        previousNumber = previousNumber + digit
     }
     
     override func viewDidLoad() {
